@@ -37,3 +37,10 @@ coverage/
 # Misc
 *.tgz
 .cache
+
+# Local secrets and backups
+.env
+.env.*
+!.env.example
+*.local.bak
+/k8s/postgres/secret.yaml
